@@ -2,6 +2,7 @@
 This repository contains small tutorials and/or tips while developing using different technologies.
 
 ### AWS Lambda
+#### Dependencies
 * Dependencies should be zipped in */python directory and uploaded as a lambda layer. For example, if you want to use the `requests` package, do the following:
     1. On your local machine, open terminal
     2. Create a directory called `python` and enter the directory : `mkdir python && cd python`
