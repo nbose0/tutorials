@@ -1,5 +1,5 @@
 AWS Lambda
-* Dependencies should be zipped in */python directory. For example, if you want to use the `requests` package, do the following:
+* Dependencies should be zipped in */python directory and uploaded as a lambda layer. For example, if you want to use the `requests` package, do the following:
     1. On your local machine, open terminal
     2. Create a directory called `python` and enter the directory : `mkdir python && cd python`
     3. Install the dependency into the `python` directory created in step 2 : `pip3 install <name_of_dependency> -t .` for example, `pip3 install requests -t .`
